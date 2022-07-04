@@ -6,10 +6,10 @@ let hour = document.querySelector(".hours")
 let min = document.querySelector(".minutes")
 let sec = document.querySelector(".secs")
 
-    let y = year.innerHTML= new Date().getFullYear()
+    year.innerHTML= new Date().getFullYear()
     let mo = month.innerHTML = new Date().getMonth()+1
-    let d = day.innerHTML = new Date().getDay()+1
-    let h = hour.innerHTML = new Date().getHours()
+    day.innerHTML = new Date().getUTCDay() + 1
+    hour.innerHTML = new Date().getHours()
     let mi = min.innerHTML = new Date().getMinutes()
     let s = sec.innerHTML = new Date().getSeconds()
 

@@ -26,9 +26,10 @@ body{
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-evenly;
+    text-align: center;
     background: rgba(0, 0, 0, 0.4);
     color: beige;
-    border-radius:10px ;
+    border-radius: 10px;
 }
 .box :nth-child(2){
     color: goldenrod;
@@ -36,10 +37,11 @@ body{
     font-weight: 600;
 }
 .box :nth-child(1){
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
 }
-@media screen and (max-width: 850px){
+
+@media screen and (max-width: 965px){
     .container{
         display: flex;
         align-items: center;
